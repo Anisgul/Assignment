@@ -1,0 +1,106 @@
+*{
+background-color: aliceblue;
+}
+
+.mainDiv{
+    
+    background:  aliceblue ;
+    height: 50rem;
+    width: 80%;
+    display: flex;
+   
+}
+.leftbox{
+    height: 40rem;
+    width: 90%;
+    background: rgb(69, 173, 69);
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 20%;
+
+
+}
+
+.rightbox{
+    height: 40rem;
+    width: 90%;
+    background: white;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    
+}
+.leftbox img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 20rem;
+    background: rgb(69, 173, 69);
+
+}
+.leftbox h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: rgb(69, 173, 69);
+    margin-top: 30px;
+    color: white;
+
+}
+.leftbox p{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: rgb(69, 173, 69);
+    color: white;
+
+}
+.rightbox h2{
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    background: white;
+    margin-top: 80px;
+    margin-right: 170px;
+
+    color: black;
+}
+.rightbox p{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: white;
+    color: black;
+    margin-right: 5%;
+
+}
+.rightbox form{
+        justify-content: center;
+        align-items:center;
+        display: flex;
+        background: fixed;     
+
+}
+.rightbox form input{
+    background: fixed;
+    border-radius: 5px;
+    margin-right: 18%;
+    font-weight: bold;
+    padding: 5px;
+
+
+}
+.rightbox button{
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    background: green;
+    color:white;
+    border-radius: 5px;
+    margin-left: 50%;
+    padding: 10px ;
+    width: 100px;
+    font-weight: bold;
+
+    
+
+}
